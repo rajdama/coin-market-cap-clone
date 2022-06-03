@@ -12,6 +12,6 @@ contract Dai is ERC20, Ownable {
     }
 
     receive() external payable {
-        
+        // accept ETH, do nothing as it would break the gas fee for a transaction
     }
 }
